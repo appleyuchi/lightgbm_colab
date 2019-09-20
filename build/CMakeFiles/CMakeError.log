@@ -1,0 +1,105 @@
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /content/LightGBM/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec39d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec39d.dir/build.make CMakeFiles/cmTC_ec39d.dir/build
+make[1]: Entering directory '/content/LightGBM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec39d.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/usr/local/cuda/include   -o CMakeFiles/cmTC_ec39d.dir/CheckSymbolExists.c.o   -c /content/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/content/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/content/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_2’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_2’?
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_2
+/content/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_ec39d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ec39d.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ec39d.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/content/LightGBM/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_ec39d/fast' failed
+make: *** [cmTC_ec39d/fast] Error 2
+
+File /content/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/cuda/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /content/LightGBM/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_040c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_040c9.dir/build.make CMakeFiles/cmTC_040c9.dir/build
+make[1]: Entering directory '/content/LightGBM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_040c9.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/usr/local/cuda/include   -o CMakeFiles/cmTC_040c9.dir/CheckSymbolExists.c.o   -c /content/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/content/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/content/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_1’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_1’?
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_1
+/content/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_040c9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_040c9.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_040c9.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/content/LightGBM/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_040c9/fast' failed
+make: *** [cmTC_040c9/fast] Error 2
+
+File /content/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/cuda/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /content/LightGBM/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abe81/fast"
+/usr/bin/make -f CMakeFiles/cmTC_abe81.dir/build.make CMakeFiles/cmTC_abe81.dir/build
+make[1]: Entering directory '/content/LightGBM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abe81.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/usr/local/cuda/include   -o CMakeFiles/cmTC_abe81.dir/CheckSymbolExists.c.o   -c /content/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/content/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/content/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CL_VERSION_2_0’ undeclared (first use in this function); did you mean ‘CL_VERSION_1_0’?
+   return ((int*)(&CL_VERSION_2_0))[argc];
+                   ^~~~~~~~~~~~~~
+                   CL_VERSION_1_0
+/content/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_abe81.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_abe81.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_abe81.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/content/LightGBM/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_abe81/fast' failed
+make: *** [cmTC_abe81/fast] Error 2
+
+File /content/LightGBM/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/local/cuda/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
